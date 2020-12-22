@@ -26,4 +26,12 @@ public class Person {
     public void setPosition(String position) {
         this.position = position;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                '}';
+    }
 }
